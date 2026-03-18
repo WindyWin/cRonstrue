@@ -2,16 +2,16 @@
 
 import { Locale } from "../locale";
 export class vi implements Locale {
-  atX0SecondsPastTheMinuteGt20(): string|null {
+  atX0SecondsPastTheMinuteGt20(): string | null {
     return null;
   }
-  atX0MinutesPastTheHourGt20(): string|null {
+  atX0MinutesPastTheHourGt20(): string | null {
     return null;
   }
-  commaMonthX0ThroughMonthX1(): string|null {
+  commaMonthX0ThroughMonthX1(): string | null {
     return null;
   }
-  commaYearX0ThroughYearX1(): string|null {
+  commaYearX0ThroughYearX1(): string | null {
     return null;
   }
 
@@ -32,7 +32,7 @@ export class vi implements Locale {
     return "Vào ";
   }
   everyMinuteBetweenX0AndX1() {
-    return "Mỗi phút giữa %s and %s";
+    return "Mỗi phút từ %s đến %s";
   }
   at() {
     return "Vào";
@@ -56,7 +56,7 @@ export class vi implements Locale {
     return "mỗi %s phút";
   }
   minutesX0ThroughX1PastTheHour() {
-    return "phút thứ %s qua %s tiếng";
+    return "Mỗi phút từ phút %s đến phút %s hàng giờ";
   }
   atX0MinutesPastTheHour() {
     return "vào %s phút của mỗi tiếng";
@@ -98,7 +98,7 @@ export class vi implements Locale {
     return "thứ 5";
   }
   commaOnThe() {
-    return ", trên ";
+    return ", vào lần";
   }
   spaceX0OfTheMonth() {
     return " %s của tháng";
@@ -110,10 +110,10 @@ export class vi implements Locale {
     return ", vào ngày %s cuối cùng của tháng";
   }
   commaOnlyOnX0() {
-    return ", chỉ trên %s";
+    return ", chỉ vào %s";
   }
   commaAndOnX0() {
-    return ", và hơn %s";
+    return ", và vào %s";
   }
   commaEveryX0Months() {
     return ", mỗi ngày %s tháng";
@@ -137,16 +137,16 @@ export class vi implements Locale {
     return "ngày trong tuần ngày gần nhất %s";
   }
   commaOnTheX0OfTheMonth() {
-    return ", vào ngày %s của tháng";
+    return ", vào ngày %s trong tháng";
   }
   commaEveryX0Days() {
     return ", mỗi %s ngày";
   }
   commaBetweenDayX0AndX1OfTheMonth() {
-    return ", giữa ngày %s và %s trong tháng";
+    return ", từ ngày %s đến %s trong tháng";
   }
   commaOnDayX0OfTheMonth() {
-    return ", vào %s ngày trong tháng";
+    return ", vào ngày %s của tháng";
   }
   commaEveryHour() {
     return ", mỗi tiếng";
@@ -178,6 +178,6 @@ export class vi implements Locale {
   }
 
   onTheHour() {
-    return "đúng giờ";
+    return "Vào đầu giờ";
   }
 }
